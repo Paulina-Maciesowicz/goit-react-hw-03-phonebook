@@ -13,20 +13,29 @@
 
 .formTitle {
   color: var(--white-color);
-  font-size: 24px;
-  margin-bottom: 2px;
+  font-size: 20px;
+  margin-bottom: 4px;
 }
 
 .formInput {
   border: 0.1px solid var(--white-color);
+  border-radius: 2px;
+  margin-bottom: 8px;
+  width: 244px;
 }
 
 .formInput:hover,
 .formInput:focus {
   opacity: 1;
   border: 0.1px solid var(--blueGray-900);
-  color: #fff;
   box-shadow: none;
+}
+
+.subBtnCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
 }
 
 .subBtn {

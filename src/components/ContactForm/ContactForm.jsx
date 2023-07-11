@@ -28,9 +28,11 @@ export const ContactForm = ({ onSubmit, onChange }) => (
         className={css.formInput}
       />
     </label>
-    <button className={css.subBtn} type="submit">
-      Add contact
-    </button>
+    <div className={css.subBtnCenter}>
+      <button className={css.subBtn} type="submit">
+        Add contact
+      </button>
+    </div>
   </form>
 );
 

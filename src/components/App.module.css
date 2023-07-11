@@ -21,7 +21,7 @@ body {
   align-items: center;
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 500% 500%;
-  animation: gradient 10s ease infinite;
+  animation: gradient 30s ease infinite;
 }
 @keyframes gradient {
   0% {
@@ -45,4 +45,27 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+p {
+  margin: 0;
+}
+h1 {
+  margin-left: 8px;
+  margin-bottom: 8px;
+  color: var(--blueGray-900);
+}
+h2 {
+  margin-left: 8px;
+  margin-bottom: 8px;
+  color: var(--blueGray-900);
+}
+li {
+  margin: 0;
+  list-style: none;
+  color: var(--blueGray-900);
+}
+ul {
+  padding: 0px;
+  padding-left: 8px;
 }
