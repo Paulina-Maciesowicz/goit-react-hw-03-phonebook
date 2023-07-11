@@ -4,7 +4,7 @@ import css from './ContactForm.module.css';
 export const ContactForm = ({ onSubmit, onChange }) => (
   <form className={css.form} onSubmit={onSubmit}>
     <label>
-      <p>Name</p>
+      <p className={css.formTitle}>Name</p>
       <input
         type="text"
         name="name"
@@ -12,11 +12,12 @@ export const ContactForm = ({ onSubmit, onChange }) => (
         title="Name may contain only letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan"
         required
         onChange={onChange}
+        className={css.formInput}
       />
     </label>
 
     <label>
-      <p>Number</p>
+      <p className={css.formTitle}>Number</p>
       <input
         type="tel"
         name="number"
@@ -24,11 +25,12 @@ export const ContactForm = ({ onSubmit, onChange }) => (
         title="Phone number must be digits and can contain spaces, dashes, parentheses and can start with +"
         required
         onChange={onChange}
+        className={css.formInput}
       />
     </label>
-      <button className={css.subBtn} type="submit">
-        Add contact
-      </button>
+    <button className={css.subBtn} type="submit">
+      Add contact
+    </button>
   </form>
 );
 
