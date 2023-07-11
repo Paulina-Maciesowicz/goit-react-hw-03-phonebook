@@ -26,9 +26,9 @@ export const ContactForm = ({ onSubmit, onChange }) => (
         onChange={onChange}
       />
     </label>
-    <button className={css.subBtn} type="submit">
-      Add contact
-    </button>
+      <button className={css.subBtn} type="submit">
+        Add contact
+      </button>
   </form>
 );
 
